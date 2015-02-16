@@ -1,0 +1,3 @@
+[submodule "kit-iot-wearable-arduino"]
+	path = kit-iot-wearable-arduino
+	url = https://github.com/telefonicadigital/kit-iot-wearable-arduino.git
