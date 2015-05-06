@@ -3,7 +3,6 @@ Kit IoT Wearable iOS  http://iot.telefonicabeta.com/kit-iot-wearable
 
 
 # Kit IoT Wearable Telefonica VIVO - iOS
-[![NPM](https://nodei.co/npm/kit-iot-wearable.png?downloads=true)](https://nodei.co/npm/kit-iot-wearable)
 
 Biblioteca [iOS](http://apple.com/) para conectar via bluetooth com o [Kit de Desenvolvimento IoT Wearable](http://iot.telefonicabeta.com/).
 
