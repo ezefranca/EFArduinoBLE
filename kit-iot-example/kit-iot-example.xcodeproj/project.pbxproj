@@ -36,7 +36,7 @@
 		F7AD5EDA1AFA8001008CD85C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7AD5EDB1AFA8001008CD85C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F7AD5EDD1AFA8001008CD85C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7AD5EDE1AFA8001008CD85C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7AD5EDE1AFA8001008CD85C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "kit-iot-example/ViewController.m"; sourceTree = SOURCE_ROOT; };
 		F7AD5EE11AFA8001008CD85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7AD5EE31AFA8001008CD85C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7AD5EE61AFA8001008CD85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -442,6 +442,7 @@
 				F7AD5EF81AFA8001008CD85C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7AD5EF91AFA8001008CD85C /* Build configuration list for PBXNativeTarget "kit-iot-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +451,7 @@
 				F7AD5EFB1AFA8001008CD85C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

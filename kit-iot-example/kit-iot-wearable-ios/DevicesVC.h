@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "SerialGATT.h"
 #import "IOTArduino.h"
+#import "ViewController.h"
 
 //@class DevicesVC;
 
@@ -21,7 +22,7 @@
 
 -(void) scanTimer:(NSTimer *)timer;
 
-@property (weak, nonatomic) IBOutlet UITableView *btHMSoftTableView;
-@property (weak, nonatomic) IBOutlet UIButton *Scan;
+@property (strong, nonatomic) IBOutlet UITableView *btHMSoftTableView;
+@property (strong, nonatomic) IBOutlet UIButton *Scan;
 
 @end

@@ -101,7 +101,18 @@
     [sensor stopScan];
     
     [Scan setTitle:@"Scan" forState:UIControlStateNormal];
-   // [self.navigationController pushViewController:controller animated:YES];
+
+#pragma warning SET THIS TO YOUR CASE
+    
+   /* Aqui, criei uma view controller com um init pra receber o objeto
+    do kit-iot. Vc pode fazer um delegate ou Notification ou qualquer
+    outra coisa.
+    */
+    ViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"commands"];
+    
+    controller.iotKit = kitIoT;
+    
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

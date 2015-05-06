@@ -15,6 +15,11 @@
 @property (strong, nonatomic) IBOutlet UITextField *commandLabel;
 @property (strong, nonatomic) IBOutlet UIButton *sendButton;
 - (IBAction)sendToArduino:(id)sender;
+- (IBAction)sendRed:(id)sender;
 
+
+- (IBAction)buttonRED:(id)sender;
+- (IBAction)ButtonRed:(id)sender;
+- (id)initWithKit:(IOTArduino *) kit;
 @end
 

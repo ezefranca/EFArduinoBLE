@@ -22,9 +22,9 @@
 
     self = [super init];
     if(self) {
-        iotKit = kit;
         NSLog(@"_init: %@", self);
     }
+    iotKit = kit;
     return self;
 }
 
@@ -42,5 +42,14 @@
     [iotKit sendCommandToArduino:@"#LR0000"];
     [iotKit sendCommandToArduino:@"#LG0000"];
     [iotKit sendCommandToArduino:@"#LB0255"];
+}
+
+- (IBAction)sendRed:(id)sender {
+}
+
+- (IBAction)buttonRED:(id)sender {
+}
+
+- (IBAction)ButtonRed:(id)sender {
 }
 @end

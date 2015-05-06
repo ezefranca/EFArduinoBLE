@@ -21,7 +21,7 @@
 
 -(void) scanTimer:(NSTimer *)timer;
 
-@property (weak, nonatomic) IBOutlet UITableView *btHMSoftTableView;
-@property (weak, nonatomic) IBOutlet UIButton *Scan;
+@property (strong, nonatomic) IBOutlet UITableView *btHMSoftTableView;
+@property (strong, nonatomic) IBOutlet UIButton *Scan;
 
 @end
