@@ -35,11 +35,6 @@
 
 //send data
 -(void)sendCommandToArduino: (NSString *)command{
-    
-    if (DEBUG) {
-        NSLog(@"Enviar para arduino %@", command);
-    }
-    
     //adjust string to send
     command = [NSString stringWithFormat:@"%@\r\n", command];
     NSData *data = [command dataUsingEncoding:[NSString defaultCStringEncoding]];
