@@ -3,6 +3,10 @@ Kit IoT Wearable iOS  http://iot.telefonicabeta.com/kit-iot-wearable
 
 
 # Kit IoT Wearable Telefonica VIVO - iOS
+[![Build Status](http://img.shields.io/travis/ezefranca/kit-iot-wearable-ios.svg?style=flat)](https://travis-ci.org/ezefranca/FSK-Arduino-iOS)
+[![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/kit-iot-wearable-ios/badge.png)](http://cocoadocs.org/docsets/FSK-Arduino-iOS)
+[![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/kit-iot-wearable-ios/badge.svg)](http://cocoadocs.org/docsets/FSK-Arduino-iOS)
+[![wercker status](https://app.wercker.com/status/7d5a33ceed1006aae64e3937f40d2bf1/s "wercker status")](https://app.wercker.com/project/bykey/554b5f78acb272dc78095c87)
 
 Biblioteca [iOS](http://apple.com/) para conectar via bluetooth com o [Kit de Desenvolvimento IoT Wearable](http://iot.telefonicabeta.com/).
 
