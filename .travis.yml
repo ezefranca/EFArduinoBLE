@@ -1,0 +1,4 @@
+language: objective-c
+before_install:
+    - cd kit-iot-example
+script: xcodebuild -project kit-iot-example.xcodeproj -target kit-iot-example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
