@@ -28,7 +28,7 @@ Biblioteca [iOS](http://apple.com/) para conectar via bluetooth com o [Kit de De
 
 ## Como utilizar
 
-### Via Cocoapods
+### Via CocoaPods
 
 Para utilizar a bibliteca instale utilizando [cocoapods](http://cocoapods.org/). No seu podfile acrescente:
 
