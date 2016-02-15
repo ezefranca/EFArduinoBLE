@@ -78,11 +78,16 @@ Veja a documentação do módulo bluetooth HM-13 - [link](http://www.seeedstudio
 
 
 ## Lista de comandos do Wearable
-Veja a lista de comandos [aqui](https://github.com/telefonicadigital/kit-iot-wearable/wiki/Comandos-do-Wearable)
+Veja a lista de comandos [aqui](https://github.com/telefonicadigital/kit-iot-wearable/wiki/Comandos-padr%C3%B5es-do-Wearable)
 
+## Outros Projetos
+
+Biblioteca Python para controlar o Kit-IoT-Wearable através do Intel Galileo [Aqui](https://github.com/renanlino/wearablePython-galileo) por [@renanlino](https://github.com/renanlino)
+
+Lib iOS Swift [Aqui](https://github.com/telefonicadigital/kit-iot-wearable-ios)
 
 ## Autor
-| [![twitter/ezefranca](https://avatars0.githubusercontent.com/u/3648336?v=3&u=c9cf380aa967f5eb9cbb0097db0dd8586875dd6d&s?s=80)](http://twitter.com/ezefranca "Follow @ezefranca on Twitter") |
+| [![twitter/ezefranca](http://1.gravatar.com/avatar/3b4da2efb9fda1566a2907dd551fc907?s=48&d=%3Cpath_to_url%3E&r=PG)](http://twitter.com/ezefranca "Follow @ezefranca on Twitter") |
 |---|
 | [ezefranca](http://ezefranca.com) |
 
