@@ -15,20 +15,17 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "kit-iot-wearable-ios"
-  s.version      = "0.1"
+  s.name         = "EFArduinoBLE"
+  s.version      = "0.2"
   s.summary      = "Kit IoT Wearable Telefonica - iOS  http://iot.telefonicabeta.com/kit-iot-wearable"
 
   s.description  = <<-DESC
-                   A longer description of kit-iot-wearable-ios in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                    This pod help iOS apps connect with Arduino Bluetooth Kit called
+                    Kit IoT Wearable Telefonica
+                    http://iot.telefonicabeta.com/kit-iot-wearable"
                    DESC
 
-  s.homepage     = "https://github.com/ezefranca/kit-iot-wearable-ios"
+  s.homepage     = "https://github.com/ezefranca/EFArduinoBLE"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ezefranca/kit-iot-wearable-ios.git", :tag => "0.1" }
+  s.source       = { :git => "https://github.com/ezefranca/EFArduinoBLE.git", :tag => "0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +86,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.source_files = 'kit-iot-wearable-ios/**/*.{h,m}'
-  s.exclude_files = "kit-iot-wearable-arduino, kit-iot-example, LICENSE, README.md, FSK-Arduino-iOS.podspec, wercker.yml"
+  s.exclude_files = "kit-iot-wearable-arduino, kit-iot-example, LICENSE, README.md, kit-iot-wearable-arduino.podspec, wercker.yml"
 
   # s.public_header_files = "Classes/**/*.h"
 
