@@ -33,7 +33,7 @@ Biblioteca [iOS](http://apple.com/) para conectar via bluetooth com o [Kit de De
 Para utilizar a bibliteca instale utilizando [cocoapods](http://cocoapods.org/). No seu podfile acrescente:
 
 ```
-pod 'kit-iot-wearable-ios'
+pod 'EFArduinoBLE'
 ```
 
 #### Exemplo de utilização
